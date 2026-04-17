@@ -1,0 +1,6 @@
+@DrinZ.API_HostAddress = http://localhost:5139
+
+GET {{DrinZ.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="DrinZ.API/DrinZ.API.csproj" />
+  <Project Path="DrinZ.Application/DrinZ.Application.csproj" />
+  <Project Path="DrinZ.Domain/DrinZ.Domain.csproj" />
+  <Project Path="DrinZ.Infrastructure/DrinZ.Infrastructure.csproj" />
+</Solution>

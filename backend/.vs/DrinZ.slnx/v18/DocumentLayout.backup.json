@@ -1,0 +1,160 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\newMeta\\DrinZ\\backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E5D9C802-890C-03CD-0C45-89EB2B846670}|DrinZ.Domain\\DrinZ.Domain.csproj|c:\\users\\aldrinanthonycalatra\\documents\\practice\\newmeta\\drinz\\backend\\drinz.domain\\entities\\skill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5D9C802-890C-03CD-0C45-89EB2B846670}|DrinZ.Domain\\DrinZ.Domain.csproj|solutionrelative:drinz.domain\\entities\\skill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5D9C802-890C-03CD-0C45-89EB2B846670}|DrinZ.Domain\\DrinZ.Domain.csproj|c:\\users\\aldrinanthonycalatra\\documents\\practice\\newmeta\\drinz\\backend\\drinz.domain\\entities\\contactmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5D9C802-890C-03CD-0C45-89EB2B846670}|DrinZ.Domain\\DrinZ.Domain.csproj|solutionrelative:drinz.domain\\entities\\contactmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5D9C802-890C-03CD-0C45-89EB2B846670}|DrinZ.Domain\\DrinZ.Domain.csproj|c:\\users\\aldrinanthonycalatra\\documents\\practice\\newmeta\\drinz\\backend\\drinz.domain\\entities\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5D9C802-890C-03CD-0C45-89EB2B846670}|DrinZ.Domain\\DrinZ.Domain.csproj|solutionrelative:drinz.domain\\entities\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91905BD4-AA99-7502-DD3D-BA49DEF02E04}|DrinZ.API\\DrinZ.API.csproj|c:\\users\\aldrinanthonycalatra\\documents\\practice\\newmeta\\drinz\\backend\\drinz.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91905BD4-AA99-7502-DD3D-BA49DEF02E04}|DrinZ.API\\DrinZ.API.csproj|solutionrelative:drinz.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B884A2-3078-8AC9-330C-6A610DF39A79}|DrinZ.Application\\DrinZ.Application.csproj|c:\\users\\aldrinanthonycalatra\\documents\\practice\\newmeta\\drinz\\backend\\drinz.application\\services\\portfolioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5B884A2-3078-8AC9-330C-6A610DF39A79}|DrinZ.Application\\DrinZ.Application.csproj|solutionrelative:drinz.application\\services\\portfolioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B884A2-3078-8AC9-330C-6A610DF39A79}|DrinZ.Application\\DrinZ.Application.csproj|c:\\users\\aldrinanthonycalatra\\documents\\practice\\newmeta\\drinz\\backend\\drinz.application\\dtos\\projectdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5B884A2-3078-8AC9-330C-6A610DF39A79}|DrinZ.Application\\DrinZ.Application.csproj|solutionrelative:drinz.application\\dtos\\projectdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B884A2-3078-8AC9-330C-6A610DF39A79}|DrinZ.Application\\DrinZ.Application.csproj|c:\\users\\aldrinanthonycalatra\\documents\\practice\\newmeta\\drinz\\backend\\drinz.application\\dtos\\skilldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5B884A2-3078-8AC9-330C-6A610DF39A79}|DrinZ.Application\\DrinZ.Application.csproj|solutionrelative:drinz.application\\dtos\\skilldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B884A2-3078-8AC9-330C-6A610DF39A79}|DrinZ.Application\\DrinZ.Application.csproj|c:\\users\\aldrinanthonycalatra\\documents\\practice\\newmeta\\drinz\\backend\\drinz.application\\dtos\\contactmessagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5B884A2-3078-8AC9-330C-6A610DF39A79}|DrinZ.Application\\DrinZ.Application.csproj|solutionrelative:drinz.application\\dtos\\contactmessagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Skill.cs",
+              "DocumentMoniker": "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\newMeta\\DrinZ\\backend\\DrinZ.Domain\\Entities\\Skill.cs",
+              "RelativeDocumentMoniker": "DrinZ.Domain\\Entities\\Skill.cs",
+              "ToolTip": "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\newMeta\\DrinZ\\backend\\DrinZ.Domain\\Entities\\Skill.cs",
+              "RelativeToolTip": "DrinZ.Domain\\Entities\\Skill.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T07:18:15.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ContactMessage.cs",
+              "DocumentMoniker": "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\newMeta\\DrinZ\\backend\\DrinZ.Domain\\Entities\\ContactMessage.cs",
+              "RelativeDocumentMoniker": "DrinZ.Domain\\Entities\\ContactMessage.cs",
+              "ToolTip": "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\newMeta\\DrinZ\\backend\\DrinZ.Domain\\Entities\\ContactMessage.cs",
+              "RelativeToolTip": "DrinZ.Domain\\Entities\\ContactMessage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T07:18:13.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Project.cs",
+              "DocumentMoniker": "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\newMeta\\DrinZ\\backend\\DrinZ.Domain\\Entities\\Project.cs",
+              "RelativeDocumentMoniker": "DrinZ.Domain\\Entities\\Project.cs",
+              "ToolTip": "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\newMeta\\DrinZ\\backend\\DrinZ.Domain\\Entities\\Project.cs",
+              "RelativeToolTip": "DrinZ.Domain\\Entities\\Project.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T07:18:12.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\newMeta\\DrinZ\\backend\\DrinZ.API\\Program.cs",
+              "RelativeDocumentMoniker": "DrinZ.API\\Program.cs",
+              "ToolTip": "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\newMeta\\DrinZ\\backend\\DrinZ.API\\Program.cs",
+              "RelativeToolTip": "DrinZ.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T07:17:47.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PortfolioService.cs",
+              "DocumentMoniker": "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\newMeta\\DrinZ\\backend\\DrinZ.Application\\Services\\PortfolioService.cs",
+              "RelativeDocumentMoniker": "DrinZ.Application\\Services\\PortfolioService.cs",
+              "ToolTip": "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\newMeta\\DrinZ\\backend\\DrinZ.Application\\Services\\PortfolioService.cs",
+              "RelativeToolTip": "DrinZ.Application\\Services\\PortfolioService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T07:17:23.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SkillDto.cs",
+              "DocumentMoniker": "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\newMeta\\DrinZ\\backend\\DrinZ.Application\\DTOs\\SkillDto.cs",
+              "RelativeDocumentMoniker": "DrinZ.Application\\DTOs\\SkillDto.cs",
+              "ToolTip": "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\newMeta\\DrinZ\\backend\\DrinZ.Application\\DTOs\\SkillDto.cs",
+              "RelativeToolTip": "DrinZ.Application\\DTOs\\SkillDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T07:16:53.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProjectDto.cs",
+              "DocumentMoniker": "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\newMeta\\DrinZ\\backend\\DrinZ.Application\\DTOs\\ProjectDto.cs",
+              "RelativeDocumentMoniker": "DrinZ.Application\\DTOs\\ProjectDto.cs",
+              "ToolTip": "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\newMeta\\DrinZ\\backend\\DrinZ.Application\\DTOs\\ProjectDto.cs",
+              "RelativeToolTip": "DrinZ.Application\\DTOs\\ProjectDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T07:16:52.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ContactMessageDto.cs",
+              "DocumentMoniker": "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\newMeta\\DrinZ\\backend\\DrinZ.Application\\DTOs\\ContactMessageDto.cs",
+              "RelativeDocumentMoniker": "DrinZ.Application\\DTOs\\ContactMessageDto.cs",
+              "ToolTip": "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\newMeta\\DrinZ\\backend\\DrinZ.Application\\DTOs\\ContactMessageDto.cs",
+              "RelativeToolTip": "DrinZ.Application\\DTOs\\ContactMessageDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T07:16:47.072Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
