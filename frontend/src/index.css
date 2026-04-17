@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html { scroll-behavior: auto; }
+
+body {
+  background-color: #f4f7fb;
+  color: #1e3a5c;
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ── Subtle dot grid overlay ── */
+body::before {
+  content: '';
+  position: fixed; inset: 0; z-index: 0; pointer-events: none;
+  background-image: radial-gradient(circle, rgba(30,58,92,0.07) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: #e4eaf2; }
+
+/* ── Section backgrounds ── */
+.bg-section {
+  background-color: #f4f7fb;
+  background-image:
+    radial-gradient(ellipse 60% 40% at 85% 10%, rgba(212,130,10,0.07) 0%, transparent 70%),
+    radial-gradient(ellipse 50% 35% at 10% 90%, rgba(30,58,92,0.06) 0%, transparent 65%);
+}
+.bg-section-alt {
+  background-color: #eaf0f8;
+  background-image:
+    radial-gradient(ellipse 55% 38% at 90% 15%, rgba(212,130,10,0.06) 0%, transparent 65%),
+    radial-gradient(ellipse 45% 30% at 5% 85%,  rgba(30,58,92,0.05) 0%, transparent 60%);
+}
+::-webkit-scrollbar-thumb { background: #e8960c; border-radius: 4px; }
+
+/* ── Color utilities ── */
+.text-orange { color: #d4820a; }
+.text-teal   { color: #1e3a5c; }
+.text-ink    { color: #1e3a5c !important; }
+.text-muted  { color: #4a6580 !important; }
+
+/* ── Pill chips ── */
+.chip-orange {
+  display: inline-flex; align-items: center;
+  padding: 4px 14px; border-radius: 999px; font-size: 12px; font-weight: 700;
+  background: rgba(212,130,10,0.10); color: #d4820a; border: 1px solid rgba(212,130,10,0.28);
+  letter-spacing: 0.01em;
+}
+.chip-teal {
+  display: inline-flex; align-items: center;
+  padding: 4px 14px; border-radius: 999px; font-size: 12px; font-weight: 700;
+  background: rgba(13,31,51,0.08); color: #0d1f33; border: 1px solid rgba(13,31,51,0.25);
+  letter-spacing: 0.01em;
+}
+
+/* ── Section heading underline ── */
+.heading-line {
+  display: inline-block; position: relative;
+}
+.heading-line::after {
+  content: ''; position: absolute; left: 0; bottom: -6px;
+  width: 100%; height: 3px; border-radius: 2px; background: #d4820a;
+}
+
+/* ── Card ── */
+.card {
+  background: #ffffff; border-radius: 16px;
+  border: 1px solid rgba(44,62,85,0.10);
+  box-shadow: 0 2px 12px rgba(44,62,85,0.08);
+  transition: box-shadow 0.22s ease, transform 0.22s ease, border-color 0.22s ease;
+}
+.card:hover {
+  box-shadow: 0 8px 28px rgba(44,62,85,0.14);
+  transform: translateY(-3px);
+  border-color: #d4820a;
+}
+
+/* ── Buttons ── */
+.btn-orange {
+  display: inline-flex; align-items: center; justify-content: center;
+  padding: 11px 28px; border-radius: 999px; font-weight: 700; font-size: 14px;
+  background: #d4820a; color: #ffffff; border: none; cursor: pointer;
+  box-shadow: 0 4px 16px rgba(212,130,10,0.28);
+  transition: background 0.18s, box-shadow 0.18s, transform 0.18s;
+  text-decoration: none;
+}
+.btn-orange:hover { background: #be730a; box-shadow: 0 6px 22px rgba(212,130,10,0.38); transform: translateY(-1px); }
+
+.btn-teal {
+  display: inline-flex; align-items: center; justify-content: center;
+  padding: 11px 28px; border-radius: 999px; font-weight: 700; font-size: 14px;
+  background: #2c3e55; color: #ffffff; border: none; cursor: pointer;
+  box-shadow: 0 4px 16px rgba(44,62,85,0.20);
+  transition: background 0.18s, box-shadow 0.18s, transform 0.18s;
+  text-decoration: none;
+}
+.btn-teal:hover { background: #243448; box-shadow: 0 6px 22px rgba(44,62,85,0.28); transform: translateY(-1px); }
+
+.btn-outline {
+  display: inline-flex; align-items: center; justify-content: center;
+  padding: 10px 26px; border-radius: 999px; font-weight: 700; font-size: 14px;
+  background: transparent; color: #d4820a; border: 2px solid #d4820a; cursor: pointer;
+  transition: background 0.18s, color 0.18s, transform 0.18s;
+  text-decoration: none;
+}
+.btn-outline:hover { background: #d4820a; color: #ffffff; transform: translateY(-1px); }
