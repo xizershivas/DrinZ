@@ -2,7 +2,9 @@
   "permissions": {
     "allow": [
       "Bash(dotnet run *)",
-      "Bash(npm run *)"
+      "Bash(npm run *)",
+      "Bash(xargs grep *)",
+      "Bash(dotnet build *)"
     ]
   }
 }

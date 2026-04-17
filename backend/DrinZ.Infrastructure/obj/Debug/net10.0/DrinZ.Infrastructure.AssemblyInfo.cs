@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DrinZ.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+75e68535ea435bdd385d13e7c30492a831486c7a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8912c98d84941f303e58474138767eccaf2b85bf")]
 [assembly: System.Reflection.AssemblyProductAttribute("DrinZ.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DrinZ.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

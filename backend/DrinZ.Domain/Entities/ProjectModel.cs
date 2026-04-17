@@ -1,6 +1,6 @@
 namespace DrinZ.Domain.Entities;
 
-public class Project
+public class ProjectModel
 {
     public int Id { get; set; }
     public string Title { get; set; } = string.Empty;

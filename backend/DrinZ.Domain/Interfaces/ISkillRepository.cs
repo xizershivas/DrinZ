@@ -2,7 +2,7 @@ using DrinZ.Domain.Entities;
 
 namespace DrinZ.Domain.Interfaces;
 
-public interface ISkillRepository : IRepository<Skill>
+public interface ISkillRepository : IRepository<SkillModel>
 {
-    Task<IEnumerable<Skill>> GetByCategoryAsync(string category);
+    Task<IEnumerable<SkillModel>> GetByCategoryAsync(string category);
 }

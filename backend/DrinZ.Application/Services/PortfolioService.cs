@@ -5,10 +5,6 @@ using DrinZ.Domain.Interfaces;
 
 namespace DrinZ.Application.Services;
 
-/// <summary>
-/// Portfolio service — depends only on IUnitOfWork (single DI entry point).
-/// All repository access goes through UoW, giving us one SaveChanges per operation.
-/// </summary>
 public class PortfolioService : IPortfolioService
 {
     private readonly IUnitOfWork _uow;
@@ -18,20 +14,19 @@ public class PortfolioService : IPortfolioService
     public async Task<IEnumerable<ProjectDto>> GetAllProjectsAsync()
     {
         var projects = await _uow.Projects.GetAllAsync();
-        return projects.Select(MapToDto);
+        return projects.Select(MapProjectToDto);
     }
 
     public async Task<IEnumerable<ProjectDto>> GetFeaturedProjectsAsync()
     {
         var projects = await _uow.Projects.GetFeaturedAsync();
-        return projects.Select(MapToDto);
+        return projects.Select(MapProjectToDto);
     }
 
     public async Task<IEnumerable<SkillDto>> GetAllSkillsAsync()
     {
         var skills = await _uow.Skills.GetAllAsync();
-        return skills.OrderBy(s => s.Category).ThenBy(s => s.SortOrder)
-                     .Select(MapSkillToDto);
+        return skills.OrderBy(s => s.Category).ThenBy(s => s.SortOrder).Select(MapSkillToDto);
     }
 
     public async Task<IEnumerable<SkillDto>> GetSkillsByCategoryAsync(string category)
@@ -42,23 +37,21 @@ public class PortfolioService : IPortfolioService
 
     public async Task<bool> SendContactMessageAsync(ContactMessageDto dto)
     {
-        var message = new ContactMessage
+        await _uow.ContactMessages.AddAsync(new ContactMessageModel
         {
             Name    = dto.Name,
             Email   = dto.Email,
             Subject = dto.Subject,
             Message = dto.Message,
             SentAt  = DateTime.UtcNow
-        };
-        await _uow.ContactMessages.AddAsync(message);
+        });
         await _uow.SaveChangesAsync();
         return true;
     }
 
-    // ── Mapping helpers ─────────────────────────────────────────────────────────
-    private static ProjectDto MapToDto(Project p) =>
+    private static ProjectDto MapProjectToDto(ProjectModel p) =>
         new(p.Id, p.Title, p.Description, p.TechStack, p.LiveUrl, p.GithubUrl, p.Category, p.IsFeatured);
 
-    private static SkillDto MapSkillToDto(Skill s) =>
+    private static SkillDto MapSkillToDto(SkillModel s) =>
         new(s.Id, s.Name, s.Proficiency, s.Category, s.SortOrder);
 }

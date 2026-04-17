@@ -1,4 +1,5 @@
 using DrinZ.Infrastructure;
+using DrinZ.Infrastructure.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -22,10 +23,9 @@ builder.Services.AddCors(options =>
 
 var app = builder.Build();
 
-// Auto-create DB and seed on startup
 using (var scope = app.Services.CreateScope())
 {
-    var db = scope.ServiceProvider.GetRequiredService<DrinZ.Infrastructure.Data.AppDbContext>();
+    var db = scope.ServiceProvider.GetRequiredService<AppDb>();
     db.Database.EnsureCreated();
 }
 

@@ -1,6 +1,6 @@
 namespace DrinZ.Domain.Entities;
 
-public class ContactMessage
+public class ContactMessageModel
 {
     public int Id { get; set; }
     public string Name { get; set; } = string.Empty;
