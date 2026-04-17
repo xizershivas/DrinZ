@@ -10,7 +10,7 @@ export default function Layout() {
   useEffect(() => { window.scrollTo(0, 0) }, [pathname])
 
   return (
-    <div className="min-h-screen flex flex-col bg-white font-sans">
+    <div className="relative z-[1] min-h-screen flex flex-col bg-section font-sans">
       <Navbar />
       <main className="flex-1 pt-16">
         <Outlet />

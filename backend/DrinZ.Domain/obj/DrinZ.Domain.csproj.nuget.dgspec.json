@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\newMeta\\DrinZ\\backend\\DrinZ.Domain\\DrinZ.Domain.csproj": {}
+    "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\DrinZ\\backend\\DrinZ.Domain\\DrinZ.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\newMeta\\DrinZ\\backend\\DrinZ.Domain\\DrinZ.Domain.csproj": {
+    "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\DrinZ\\backend\\DrinZ.Domain\\DrinZ.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\newMeta\\DrinZ\\backend\\DrinZ.Domain\\DrinZ.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\DrinZ\\backend\\DrinZ.Domain\\DrinZ.Domain.csproj",
         "projectName": "DrinZ.Domain",
-        "projectPath": "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\newMeta\\DrinZ\\backend\\DrinZ.Domain\\DrinZ.Domain.csproj",
+        "projectPath": "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\DrinZ\\backend\\DrinZ.Domain\\DrinZ.Domain.csproj",
         "packagesPath": "C:\\Users\\AldrinAnthonyCalatra\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\newMeta\\DrinZ\\backend\\DrinZ.Domain\\obj\\",
+        "outputPath": "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\DrinZ\\backend\\DrinZ.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\newMeta\\DrinZ\\backend\\NuGet.Config",
+          "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\DrinZ\\backend\\NuGet.Config",
           "C:\\Users\\AldrinAnthonyCalatra\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",

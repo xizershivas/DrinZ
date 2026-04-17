@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "d92G1E7yb9o=",
+  "dgSpecHash": "7WVMW/2qRRA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\newMeta\\DrinZ\\backend\\DrinZ.Infrastructure\\DrinZ.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\DrinZ\\backend\\DrinZ.Infrastructure\\DrinZ.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\AldrinAnthonyCalatra\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\AldrinAnthonyCalatra\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",

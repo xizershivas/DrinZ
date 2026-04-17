@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "h22W1aGf5I8=",
+  "dgSpecHash": "/OTEXVY84YI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\newMeta\\DrinZ\\backend\\DrinZ.API\\DrinZ.API.csproj",
+  "projectFilePath": "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\DrinZ\\backend\\DrinZ.API\\DrinZ.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\AldrinAnthonyCalatra\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\AldrinAnthonyCalatra\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",

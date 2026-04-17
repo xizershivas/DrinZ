@@ -35,11 +35,11 @@ const jobs = [
   },
 ]
 
-const DOT_COLOR = ['#F58027', '#10DEBB', '#F58027', '#10DEBB']
+const DOT_COLOR = ['#3A8FBF', '#5CC8DC', '#3A8FBF', '#5CC8DC']
 
 export default function Experience() {
   return (
-    <section className="py-24 bg-gray-50">
+    <section className="py-24 bg-section-alt">
       <div className="max-w-5xl mx-auto px-6">
         <div className="text-center mb-16">
           <span className="chip-teal mb-4">My Journey</span>
@@ -62,7 +62,7 @@ export default function Experience() {
 
               {/* Card */}
               <div className="ml-14 md:ml-0 md:flex-1 card p-6"
-                onMouseEnter={e => e.currentTarget.style.borderColor = '#F58027'}
+                onMouseEnter={e => e.currentTarget.style.borderColor = '#3A8FBF'}
                 onMouseLeave={e => e.currentTarget.style.borderColor = '#e5e7eb'}
               >
                 <div className="flex flex-wrap items-start justify-between gap-2 mb-3">
@@ -74,7 +74,7 @@ export default function Experience() {
                   <span className="chip-teal !text-[11px]">{job.period}</span>
                 </div>
 
-                <p className="text-xs font-semibold mb-3" style={{ color: '#10DEBB' }}>{job.stack}</p>
+                <p className="text-xs font-semibold mb-3" style={{ color: '#5CC8DC' }}>{job.stack}</p>
 
                 <ul className="space-y-1.5">
                   {job.bullets.map((b, j) => (

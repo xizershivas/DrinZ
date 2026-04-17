@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\newMeta\\DrinZ\\backend\\DrinZ.API\\DrinZ.API.csproj": {}
+    "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\DrinZ\\backend\\DrinZ.API\\DrinZ.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\newMeta\\DrinZ\\backend\\DrinZ.API\\DrinZ.API.csproj": {
+    "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\DrinZ\\backend\\DrinZ.API\\DrinZ.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\newMeta\\DrinZ\\backend\\DrinZ.API\\DrinZ.API.csproj",
+        "projectUniqueName": "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\DrinZ\\backend\\DrinZ.API\\DrinZ.API.csproj",
         "projectName": "DrinZ.API",
-        "projectPath": "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\newMeta\\DrinZ\\backend\\DrinZ.API\\DrinZ.API.csproj",
+        "projectPath": "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\DrinZ\\backend\\DrinZ.API\\DrinZ.API.csproj",
         "packagesPath": "C:\\Users\\AldrinAnthonyCalatra\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\newMeta\\DrinZ\\backend\\DrinZ.API\\obj\\",
+        "outputPath": "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\DrinZ\\backend\\DrinZ.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\newMeta\\DrinZ\\backend\\NuGet.Config",
+          "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\DrinZ\\backend\\NuGet.Config",
           "C:\\Users\\AldrinAnthonyCalatra\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
@@ -34,11 +34,11 @@
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\newMeta\\DrinZ\\backend\\DrinZ.Application\\DrinZ.Application.csproj": {
-                "projectPath": "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\newMeta\\DrinZ\\backend\\DrinZ.Application\\DrinZ.Application.csproj"
+              "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\DrinZ\\backend\\DrinZ.Application\\DrinZ.Application.csproj": {
+                "projectPath": "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\DrinZ\\backend\\DrinZ.Application\\DrinZ.Application.csproj"
               },
-              "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\newMeta\\DrinZ\\backend\\DrinZ.Infrastructure\\DrinZ.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\newMeta\\DrinZ\\backend\\DrinZ.Infrastructure\\DrinZ.Infrastructure.csproj"
+              "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\DrinZ\\backend\\DrinZ.Infrastructure\\DrinZ.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\DrinZ\\backend\\DrinZ.Infrastructure\\DrinZ.Infrastructure.csproj"
               }
             }
           }
@@ -511,21 +511,21 @@
         }
       }
     },
-    "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\newMeta\\DrinZ\\backend\\DrinZ.Application\\DrinZ.Application.csproj": {
+    "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\DrinZ\\backend\\DrinZ.Application\\DrinZ.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\newMeta\\DrinZ\\backend\\DrinZ.Application\\DrinZ.Application.csproj",
+        "projectUniqueName": "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\DrinZ\\backend\\DrinZ.Application\\DrinZ.Application.csproj",
         "projectName": "DrinZ.Application",
-        "projectPath": "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\newMeta\\DrinZ\\backend\\DrinZ.Application\\DrinZ.Application.csproj",
+        "projectPath": "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\DrinZ\\backend\\DrinZ.Application\\DrinZ.Application.csproj",
         "packagesPath": "C:\\Users\\AldrinAnthonyCalatra\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\newMeta\\DrinZ\\backend\\DrinZ.Application\\obj\\",
+        "outputPath": "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\DrinZ\\backend\\DrinZ.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\newMeta\\DrinZ\\backend\\NuGet.Config",
+          "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\DrinZ\\backend\\NuGet.Config",
           "C:\\Users\\AldrinAnthonyCalatra\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
@@ -541,8 +541,8 @@
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\newMeta\\DrinZ\\backend\\DrinZ.Domain\\DrinZ.Domain.csproj": {
-                "projectPath": "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\newMeta\\DrinZ\\backend\\DrinZ.Domain\\DrinZ.Domain.csproj"
+              "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\DrinZ\\backend\\DrinZ.Domain\\DrinZ.Domain.csproj": {
+                "projectPath": "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\DrinZ\\backend\\DrinZ.Domain\\DrinZ.Domain.csproj"
               }
             }
           }
@@ -856,21 +856,21 @@
         }
       }
     },
-    "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\newMeta\\DrinZ\\backend\\DrinZ.Domain\\DrinZ.Domain.csproj": {
+    "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\DrinZ\\backend\\DrinZ.Domain\\DrinZ.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\newMeta\\DrinZ\\backend\\DrinZ.Domain\\DrinZ.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\DrinZ\\backend\\DrinZ.Domain\\DrinZ.Domain.csproj",
         "projectName": "DrinZ.Domain",
-        "projectPath": "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\newMeta\\DrinZ\\backend\\DrinZ.Domain\\DrinZ.Domain.csproj",
+        "projectPath": "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\DrinZ\\backend\\DrinZ.Domain\\DrinZ.Domain.csproj",
         "packagesPath": "C:\\Users\\AldrinAnthonyCalatra\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\newMeta\\DrinZ\\backend\\DrinZ.Domain\\obj\\",
+        "outputPath": "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\DrinZ\\backend\\DrinZ.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\newMeta\\DrinZ\\backend\\NuGet.Config",
+          "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\DrinZ\\backend\\NuGet.Config",
           "C:\\Users\\AldrinAnthonyCalatra\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
@@ -1197,21 +1197,21 @@
         }
       }
     },
-    "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\newMeta\\DrinZ\\backend\\DrinZ.Infrastructure\\DrinZ.Infrastructure.csproj": {
+    "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\DrinZ\\backend\\DrinZ.Infrastructure\\DrinZ.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\newMeta\\DrinZ\\backend\\DrinZ.Infrastructure\\DrinZ.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\DrinZ\\backend\\DrinZ.Infrastructure\\DrinZ.Infrastructure.csproj",
         "projectName": "DrinZ.Infrastructure",
-        "projectPath": "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\newMeta\\DrinZ\\backend\\DrinZ.Infrastructure\\DrinZ.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\DrinZ\\backend\\DrinZ.Infrastructure\\DrinZ.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\AldrinAnthonyCalatra\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\newMeta\\DrinZ\\backend\\DrinZ.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\DrinZ\\backend\\DrinZ.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\newMeta\\DrinZ\\backend\\NuGet.Config",
+          "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\DrinZ\\backend\\NuGet.Config",
           "C:\\Users\\AldrinAnthonyCalatra\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
@@ -1227,11 +1227,11 @@
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\newMeta\\DrinZ\\backend\\DrinZ.Application\\DrinZ.Application.csproj": {
-                "projectPath": "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\newMeta\\DrinZ\\backend\\DrinZ.Application\\DrinZ.Application.csproj"
+              "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\DrinZ\\backend\\DrinZ.Application\\DrinZ.Application.csproj": {
+                "projectPath": "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\DrinZ\\backend\\DrinZ.Application\\DrinZ.Application.csproj"
               },
-              "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\newMeta\\DrinZ\\backend\\DrinZ.Domain\\DrinZ.Domain.csproj": {
-                "projectPath": "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\newMeta\\DrinZ\\backend\\DrinZ.Domain\\DrinZ.Domain.csproj"
+              "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\DrinZ\\backend\\DrinZ.Domain\\DrinZ.Domain.csproj": {
+                "projectPath": "C:\\Users\\AldrinAnthonyCalatra\\Documents\\practice\\DrinZ\\backend\\DrinZ.Domain\\DrinZ.Domain.csproj"
               }
             }
           }

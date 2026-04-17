@@ -19,7 +19,7 @@ const FALLBACK = [
 ]
 
 const CAT_ICONS = { Backend:'⚙️', Frontend:'🎨', Database:'🗄️', DevOps:'🚀', AI:'🤖' }
-const BAR       = { Backend:'#F58027', Frontend:'#0ba896', Database:'#F58027', DevOps:'#0ba896', AI:'#F58027' }
+const BAR       = { Backend:'#3A8FBF', Frontend:'#5CC8DC', Database:'#3A8FBF', DevOps:'#5CC8DC', AI:'#3A8FBF' }
 
 export default function Skills() {
   const [skills, setSkills] = useState(FALLBACK)
@@ -31,7 +31,7 @@ export default function Skills() {
   const filtered   = active === 'All' ? skills : skills.filter(s => s.category === active)
 
   return (
-    <section className="py-24 bg-white">
+    <section className="py-24 bg-section">
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-center mb-12">
           <span className="chip-orange mb-4">What I Know</span>
@@ -46,10 +46,10 @@ export default function Skills() {
             <button key={c} onClick={() => setActive(c)}
               className="px-5 py-2 rounded-full text-sm font-bold transition-all duration-200 border"
               style={active === c
-                ? { background: '#F58027', color: '#fff', borderColor: '#F58027', boxShadow: '0 4px 14px rgba(245,128,39,0.35)' }
+                ? { background: '#3A8FBF', color: '#fff', borderColor: '#3A8FBF', boxShadow: '0 4px 14px rgba(58,143,191,0.35)' }
                 : { background: '#fff', color: '#6b7280', borderColor: '#e5e7eb' }
               }
-              onMouseEnter={e => { if (active !== c) { e.currentTarget.style.borderColor='#F58027'; e.currentTarget.style.color='#F58027' } }}
+              onMouseEnter={e => { if (active !== c) { e.currentTarget.style.borderColor='#3A8FBF'; e.currentTarget.style.color='#3A8FBF' } }}
               onMouseLeave={e => { if (active !== c) { e.currentTarget.style.borderColor='#e5e7eb'; e.currentTarget.style.color='#6b7280' } }}
             >
               {c !== 'All' && <span className="mr-1">{CAT_ICONS[c]}</span>}{c}

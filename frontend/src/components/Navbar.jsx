@@ -27,16 +27,16 @@ export default function Navbar() {
   return (
     <nav className={`fixed top-0 w-full z-50 transition-all duration-300 ${
       scrolled
-        ? 'bg-white/95 backdrop-blur-lg shadow-md border-b border-gray-100'
-        : 'bg-white/90 backdrop-blur-sm'
+        ? 'bg-[#1a2d45]/97 backdrop-blur-lg shadow-md border-b border-white/10'
+        : 'bg-[#1a2d45]/90 backdrop-blur-sm'
     }`}>
       <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
 
         {/* Logo */}
         <Link to="/" className="flex items-center gap-1 group">
-          <span className="text-2xl font-black text-ink tracking-tight group-hover:text-orange transition-colors">drin</span>
+          <span className="text-2xl font-black text-white tracking-tight group-hover:text-orange transition-colors">drin</span>
           <span className="text-2xl font-black text-orange">Z</span>
-          <span className="ml-1 w-2 h-2 rounded-full bg-teal animate-pulse-slow" />
+          <span className="ml-1 w-2 h-2 rounded-full bg-orange animate-pulse-slow" />
         </Link>
 
         {/* Desktop links */}
@@ -46,7 +46,7 @@ export default function Navbar() {
             return (
               <Link key={path} to={path}
                 className={`relative px-4 py-2 rounded-lg text-sm font-semibold transition-all duration-200 ${
-                  active ? 'text-orange' : 'text-muted hover:text-ink'
+                  active ? 'text-orange' : 'text-white/70 hover:text-white'
                 }`}
               >
                 {active && (
@@ -64,22 +64,22 @@ export default function Navbar() {
         {/* Hamburger */}
         <button className="md:hidden p-2 focus:outline-none" onClick={() => setMenuOpen(o => !o)}>
           <div className="flex flex-col gap-[5px]">
-            <span className={`block w-5 h-0.5 bg-ink rounded transition-all duration-300 ${menuOpen ? 'rotate-45 translate-y-[7px]' : ''}`} />
-            <span className={`block w-5 h-0.5 bg-ink rounded transition-all duration-300 ${menuOpen ? 'opacity-0 w-0' : ''}`} />
-            <span className={`block w-5 h-0.5 bg-ink rounded transition-all duration-300 ${menuOpen ? '-rotate-45 -translate-y-[7px]' : ''}`} />
+            <span className={`block w-5 h-0.5 bg-white rounded transition-all duration-300 ${menuOpen ? 'rotate-45 translate-y-[7px]' : ''}`} />
+            <span className={`block w-5 h-0.5 bg-white rounded transition-all duration-300 ${menuOpen ? 'opacity-0 w-0' : ''}`} />
+            <span className={`block w-5 h-0.5 bg-white rounded transition-all duration-300 ${menuOpen ? '-rotate-45 -translate-y-[7px]' : ''}`} />
           </div>
         </button>
       </div>
 
       {/* Mobile menu */}
       <div className={`md:hidden overflow-hidden transition-all duration-300 ${menuOpen ? 'max-h-80' : 'max-h-0'}`}>
-        <div className="bg-white border-t border-gray-100 px-6 py-3 flex flex-col gap-1 shadow-lg">
+        <div className="bg-[#1a2d45] border-t border-white/10 px-6 py-3 flex flex-col gap-1 shadow-lg">
           {NAV_LINKS.map(({ label, path }) => (
             <Link key={path} to={path}
               className={`px-4 py-3 rounded-lg text-sm font-semibold transition-all duration-200 ${
                 location.pathname === path
-                  ? 'text-orange bg-orange/5'
-                  : 'text-muted hover:text-orange hover:bg-orange/5'
+                  ? 'text-orange bg-orange/10'
+                  : 'text-white/70 hover:text-orange hover:bg-orange/10'
               }`}
             >
               {label}

@@ -4,7 +4,7 @@ export default function About() {
   const navigate = useNavigate()
 
   return (
-    <section className="py-24 bg-gray-50">
+    <section className="py-24 bg-section-alt">
       <div className="max-w-6xl mx-auto px-6">
         {/* Heading */}
         <div className="text-center mb-16">
@@ -22,19 +22,19 @@ export default function About() {
               {/* Shadow card behind */}
               <div className="absolute inset-0 rounded-2xl rotate-3 bg-orange/10 border border-orange/20" />
               {/* Photo */}
-              <div className="relative rounded-2xl overflow-hidden w-full h-full border border-gray-200 shadow-hover">
-                <img src="/MainPic.jpg" alt="Aldrin" className="w-full h-full object-cover object-top" />
+              <div className="relative rounded-2xl overflow-hidden w-full h-full border border-white/10 shadow-hover">
+                <img src="/about.jpg" alt="Aldrin" className="w-full h-full object-cover object-top" />
                 {/* Dark overlay */}
                 <div className="absolute inset-0 rounded-2xl"
                   style={{ background: 'linear-gradient(180deg, rgba(0,0,0,0.05) 0%, rgba(0,0,0,0.50) 100%)' }} />
               </div>
               {/* Exp badge */}
-              <div className="absolute -bottom-5 -right-5 bg-white rounded-2xl px-5 py-3 shadow-card border border-orange/20 z-10">
+              <div className="absolute -bottom-5 -right-5 bg-white rounded-2xl px-5 py-3 shadow-card border border-orange/30 z-10">
                 <p className="text-2xl font-black text-orange">7+</p>
                 <p className="text-xs text-muted font-semibold">Years Exp.</p>
               </div>
               {/* Teal dot */}
-              <div className="absolute -top-3 -left-3 w-8 h-8 rounded-full bg-teal border-4 border-white shadow-teal z-10" />
+              <div className="absolute -top-3 -left-3 w-8 h-8 rounded-full bg-orange border-4 border-white shadow-orange z-10" />
             </div>
           </div>
 
@@ -48,7 +48,7 @@ export default function About() {
             </p>
             <p className="text-muted leading-relaxed">
               My current focus is integrating{' '}
-              <span className="font-semibold" style={{ color: '#0ba896' }}>AI-powered solutions</span> — prompt engineering,
+              <span className="font-semibold text-orange">AI-powered solutions</span> — prompt engineering,
               AI API integrations, and RAG — into production software.
             </p>
             <p className="text-muted leading-relaxed">
@@ -68,7 +68,7 @@ export default function About() {
                 ['📱 Phone',    '+63 969 277 6820'],
                 ['💼 Status',   'Open to Opportunities'],
               ].map(([k, v]) => (
-                <div key={k} className="bg-white rounded-xl p-3 border border-gray-100 shadow-card">
+                <div key={k} className="bg-white rounded-xl p-3 border border-teal/10 shadow-card">
                   <p className="text-[10px] text-muted uppercase tracking-widest font-semibold mb-1">{k}</p>
                   <p className="text-sm text-ink font-semibold truncate">{v}</p>
                 </div>

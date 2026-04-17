@@ -33,14 +33,14 @@ export default function Hero() {
   }, [displayed, typing, roleIdx])
 
   return (
-    <section className="relative min-h-[calc(100vh-4rem)] flex items-center overflow-hidden bg-white">
+    <section className="relative min-h-[calc(100vh-4rem)] flex items-center overflow-hidden bg-section">
 
       {/* Subtle background shapes */}
       <div className="absolute inset-0 pointer-events-none overflow-hidden">
         <div className="absolute top-0 right-0 w-[600px] h-[600px] rounded-full"
-          style={{ background: 'radial-gradient(circle at 70% 25%, rgba(245,128,39,0.08) 0%, transparent 60%)' }} />
+          style={{ background: 'radial-gradient(circle at 70% 25%, rgba(252,163,17,0.12) 0%, transparent 60%)' }} />
         <div className="absolute bottom-0 left-0 w-[500px] h-[500px] rounded-full"
-          style={{ background: 'radial-gradient(circle at 30% 75%, rgba(16,222,187,0.08) 0%, transparent 60%)' }} />
+          style={{ background: 'radial-gradient(circle at 30% 75%, rgba(229,229,229,0.06) 0%, transparent 60%)' }} />
         <div className="absolute inset-0 opacity-[0.03]"
           style={{ backgroundImage: 'radial-gradient(circle, #111827 1px, transparent 1px)', backgroundSize: '32px 32px' }} />
       </div>
@@ -64,7 +64,7 @@ export default function Hero() {
 
           {/* Typewriter */}
           <div className="h-10 flex items-center gap-1 justify-center lg:justify-start mb-6">
-            <span className="text-xl font-bold" style={{ color: '#0ba896' }}>{displayed}</span>
+            <span className="text-xl font-bold text-orange">{displayed}</span>
             <span className="inline-block w-[2px] h-6 rounded bg-orange animate-pulse" />
           </div>
 
@@ -96,7 +96,7 @@ export default function Hero() {
             <div className="absolute inset-0 rounded-full border-2 border-dashed border-orange/30 animate-spin-slow" />
             <div className="absolute inset-4 rounded-full border-2 border-teal/20" />
             <div className="absolute inset-7 rounded-full overflow-hidden border-4 border-white"
-              style={{ boxShadow: '0 0 0 4px #F58027, 0 12px 40px rgba(245,128,39,0.30)' }}>
+              style={{ boxShadow: '0 0 0 4px #d4820a, 0 12px 40px rgba(212,130,10,0.22)' }}>
               <img src="/MainPic.jpg" alt="Aldrin Calatrava"
                 className="w-full h-full object-cover object-top" />
               {/* Dark overlay on photo */}

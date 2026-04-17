@@ -19,7 +19,7 @@ export default function Projects() {
   const filtered   = filter === 'All' ? projects : projects.filter(p => p.category === filter)
 
   return (
-    <section className="py-24 bg-white">
+    <section className="py-24 bg-section">
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-center mb-12">
           <span className="chip-orange mb-4">My Work</span>
@@ -34,10 +34,10 @@ export default function Projects() {
             <button key={c} onClick={() => setFilter(c)}
               className="px-5 py-2 rounded-full text-sm font-bold transition-all duration-200 border"
               style={filter === c
-                ? { background: '#10DEBB', color: '#0a2e26', borderColor: '#10DEBB', boxShadow: '0 4px 14px rgba(16,222,187,0.30)' }
+                ? { background: '#5CC8DC', color: '#0F3040', borderColor: '#5CC8DC', boxShadow: '0 4px 14px rgba(92,200,220,0.30)' }
                 : { background: '#fff', color: '#6b7280', borderColor: '#e5e7eb' }
               }
-              onMouseEnter={e => { if (filter !== c) { e.currentTarget.style.borderColor='#10DEBB'; e.currentTarget.style.color='#0ba896' } }}
+              onMouseEnter={e => { if (filter !== c) { e.currentTarget.style.borderColor='#5CC8DC'; e.currentTarget.style.color='#3A8FBF' } }}
               onMouseLeave={e => { if (filter !== c) { e.currentTarget.style.borderColor='#e5e7eb'; e.currentTarget.style.color='#6b7280' } }}
             >
               {c}
@@ -50,7 +50,7 @@ export default function Projects() {
           {filtered.map(p => (
             <div key={p.id} className="card flex flex-col overflow-hidden">
               {/* Top accent bar — orange for featured, teal for others */}
-              <div className="h-[3px]" style={{ background: p.isFeatured ? '#F58027' : '#10DEBB' }} />
+              <div className="h-[3px]" style={{ background: p.isFeatured ? '#3A8FBF' : '#5CC8DC' }} />
 
               <div className="p-6 flex flex-col flex-1">
                 <div className="flex items-start justify-between gap-3 mb-3">

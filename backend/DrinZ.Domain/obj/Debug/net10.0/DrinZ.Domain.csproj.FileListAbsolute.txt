@@ -9,3 +9,15 @@ C:\Users\AldrinAnthonyCalatra\Documents\practice\newMeta\DrinZ\backend\DrinZ.Dom
 C:\Users\AldrinAnthonyCalatra\Documents\practice\newMeta\DrinZ\backend\DrinZ.Domain\obj\Debug\net10.0\refint\DrinZ.Domain.dll
 C:\Users\AldrinAnthonyCalatra\Documents\practice\newMeta\DrinZ\backend\DrinZ.Domain\obj\Debug\net10.0\DrinZ.Domain.pdb
 C:\Users\AldrinAnthonyCalatra\Documents\practice\newMeta\DrinZ\backend\DrinZ.Domain\obj\Debug\net10.0\ref\DrinZ.Domain.dll
+C:\Users\AldrinAnthonyCalatra\Documents\practice\DrinZ\backend\DrinZ.Domain\bin\Debug\net10.0\DrinZ.Domain.deps.json
+C:\Users\AldrinAnthonyCalatra\Documents\practice\DrinZ\backend\DrinZ.Domain\bin\Debug\net10.0\DrinZ.Domain.dll
+C:\Users\AldrinAnthonyCalatra\Documents\practice\DrinZ\backend\DrinZ.Domain\bin\Debug\net10.0\DrinZ.Domain.pdb
+C:\Users\AldrinAnthonyCalatra\Documents\practice\DrinZ\backend\DrinZ.Domain\obj\Debug\net10.0\DrinZ.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AldrinAnthonyCalatra\Documents\practice\DrinZ\backend\DrinZ.Domain\obj\Debug\net10.0\DrinZ.Domain.AssemblyInfoInputs.cache
+C:\Users\AldrinAnthonyCalatra\Documents\practice\DrinZ\backend\DrinZ.Domain\obj\Debug\net10.0\DrinZ.Domain.AssemblyInfo.cs
+C:\Users\AldrinAnthonyCalatra\Documents\practice\DrinZ\backend\DrinZ.Domain\obj\Debug\net10.0\DrinZ.Domain.csproj.CoreCompileInputs.cache
+C:\Users\AldrinAnthonyCalatra\Documents\practice\DrinZ\backend\DrinZ.Domain\obj\Debug\net10.0\DrinZ.Domain.sourcelink.json
+C:\Users\AldrinAnthonyCalatra\Documents\practice\DrinZ\backend\DrinZ.Domain\obj\Debug\net10.0\DrinZ.Domain.dll
+C:\Users\AldrinAnthonyCalatra\Documents\practice\DrinZ\backend\DrinZ.Domain\obj\Debug\net10.0\refint\DrinZ.Domain.dll
+C:\Users\AldrinAnthonyCalatra\Documents\practice\DrinZ\backend\DrinZ.Domain\obj\Debug\net10.0\DrinZ.Domain.pdb
+C:\Users\AldrinAnthonyCalatra\Documents\practice\DrinZ\backend\DrinZ.Domain\obj\Debug\net10.0\ref\DrinZ.Domain.dll
