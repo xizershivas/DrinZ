@@ -22,39 +22,17 @@ const CAT_ICONS = { Backend:'⚙️', Frontend:'🎨', Database:'🗄️', DevOp
 const BAR       = { Backend:'#3A8FBF', Frontend:'#5CC8DC', Database:'#3A8FBF', DevOps:'#5CC8DC', AI:'#3A8FBF' }
 
 export default function Skills() {
-  const [skills, setSkills] = useState([])
+  const [skills, setSkills] = useState(FALLBACK)
   const [active, setActive] = useState('All')
-  const [loading, setLoading] = useState(true)
-  const [error, setError]     = useState(null)
 
-  useEffect(() => {
-    getSkills()
-      .then(r => setSkills(r.data))
-      .catch(err => {
-        console.error('[Skills] API error:', err)
-        setError('Failed to load skills. Using local data.')
-        setSkills(FALLBACK)
-      })
-      .finally(() => setLoading(false))
-  }, [])
+  useEffect(() => { getSkills().then(r => setSkills(r.data)).catch(() => {}) }, [])
 
   const categories = ['All', ...new Set(skills.map(s => s.category))]
   const filtered   = active === 'All' ? skills : skills.filter(s => s.category === active)
 
-  if (loading) return (
-    <section className="py-24 bg-section flex items-center justify-center min-h-[40vh]">
-      <div className="text-muted text-sm animate-pulse">Loading skills...</div>
-    </section>
-  )
-
   return (
     <section className="py-24 bg-section">
       <div className="max-w-6xl mx-auto px-6">
-        {error && (
-          <div className="mb-6 text-center text-xs text-orange bg-orange/10 border border-orange/25 rounded-lg py-2 px-4">
-            ⚠ {error}
-          </div>
-        )}
         <div className="text-center mb-12">
           <span className="chip-orange mb-4">What I Know</span>
           <h2 className="text-4xl font-black text-ink mt-3">

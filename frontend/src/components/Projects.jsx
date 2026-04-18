@@ -10,39 +10,17 @@ const FALLBACK = [
 ]
 
 export default function Projects() {
-  const [projects, setProjects] = useState([])
+  const [projects, setProjects] = useState(FALLBACK)
   const [filter, setFilter]     = useState('All')
-  const [loading, setLoading]   = useState(true)
-  const [error, setError]       = useState(null)
 
-  useEffect(() => {
-    getProjects()
-      .then(r => setProjects(r.data))
-      .catch(err => {
-        console.error('[Projects] API error:', err)
-        setError('Failed to load projects. Using local data.')
-        setProjects(FALLBACK)
-      })
-      .finally(() => setLoading(false))
-  }, [])
+  useEffect(() => { getProjects().then(r => setProjects(r.data)).catch(() => {}) }, [])
 
   const categories = ['All', ...new Set(projects.map(p => p.category))]
   const filtered   = filter === 'All' ? projects : projects.filter(p => p.category === filter)
 
-  if (loading) return (
-    <section className="py-24 bg-section flex items-center justify-center min-h-[40vh]">
-      <div className="text-muted text-sm animate-pulse">Loading projects...</div>
-    </section>
-  )
-
   return (
     <section className="py-24 bg-section">
       <div className="max-w-6xl mx-auto px-6">
-        {error && (
-          <div className="mb-6 text-center text-xs text-orange bg-orange/10 border border-orange/25 rounded-lg py-2 px-4">
-            ⚠ {error}
-          </div>
-        )}
         <div className="text-center mb-12">
           <span className="chip-orange mb-4">My Work</span>
           <h2 className="text-4xl font-black text-ink mt-3">

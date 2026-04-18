@@ -8,7 +8,8 @@
       "Bash(tasklist //FI \"IMAGENAME eq node.exe\" //FO CSV)",
       "Bash(taskkill //PID 24440 //F)",
       "Bash(taskkill //PID 14668 //F)",
-      "Bash(curl -s http://localhost:5139/api/projects)"
+      "Bash(curl -s http://localhost:5139/api/projects)",
+      "Bash(curl -s http://localhost:5173)"
     ]
   }
 }
