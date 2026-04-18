@@ -4,7 +4,11 @@
       "Bash(dotnet run *)",
       "Bash(npm run *)",
       "Bash(xargs grep *)",
-      "Bash(dotnet build *)"
+      "Bash(dotnet build *)",
+      "Bash(tasklist //FI \"IMAGENAME eq node.exe\" //FO CSV)",
+      "Bash(taskkill //PID 24440 //F)",
+      "Bash(taskkill //PID 14668 //F)",
+      "Bash(curl -s http://localhost:5139/api/projects)"
     ]
   }
 }
