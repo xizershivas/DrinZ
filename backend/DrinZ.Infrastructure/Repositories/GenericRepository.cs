@@ -6,13 +6,13 @@ namespace DrinZ.Infrastructure.Repositories;
 
 public class GenericRepository<T> : IRepository<T> where T : class
 {
-    protected readonly AppDbContext _context;
+    protected readonly AppDb _db;
     protected readonly DbSet<T> _dbSet;
 
-    public GenericRepository(AppDbContext context)
+    public GenericRepository(AppDb db)
     {
-        _context = context;
-        _dbSet = context.Set<T>();
+        _db = db;
+        _dbSet = db.Set<T>();
     }
 
     public async Task<IEnumerable<T>> GetAllAsync() =>
@@ -24,7 +24,6 @@ public class GenericRepository<T> : IRepository<T> where T : class
     public async Task<T> AddAsync(T entity)
     {
         await _dbSet.AddAsync(entity);
-        // SaveChanges is the responsibility of IUnitOfWork — not the individual repo
         return entity;
     }
 

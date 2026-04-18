@@ -4,7 +4,7 @@ using DrinZ.Infrastructure.Data;
 
 namespace DrinZ.Infrastructure.Repositories;
 
-public class ContactMessageRepository : GenericRepository<ContactMessage>, IContactMessageRepository
+public class ContactMessageRepository : GenericRepository<ContactMessageModel>, IContactMessageRepository
 {
-    public ContactMessageRepository(AppDbContext context) : base(context) { }
+    public ContactMessageRepository(AppDb db) : base(db) { }
 }

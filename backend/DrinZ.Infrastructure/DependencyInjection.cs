@@ -14,15 +14,10 @@ public static class DependencyInjection
         this IServiceCollection services,
         IConfiguration configuration)
     {
-        // Register DbContext
-        services.AddDbContext<AppDbContext>(options =>
+        services.AddDbContext<AppDb>(options =>
             options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
 
-        // IUnitOfWork — single entry point for all repositories.
-        // Controllers/services only need to inject IUnitOfWork.
         services.AddScoped<IUnitOfWork, UnitOfWork>();
-
-        // Application service layer
         services.AddScoped<IPortfolioService, PortfolioService>();
 
         return services;

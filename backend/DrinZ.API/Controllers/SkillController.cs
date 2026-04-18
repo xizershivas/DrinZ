@@ -4,15 +4,12 @@ using Microsoft.AspNetCore.Mvc;
 namespace DrinZ.API.Controllers;
 
 [ApiController]
-[Route("api/[controller]")]
-public class SkillsController : ControllerBase
+[Route("api/skills")]
+public class SkillController : ControllerBase
 {
     private readonly IPortfolioService _service;
 
-    public SkillsController(IPortfolioService service)
-    {
-        _service = service;
-    }
+    public SkillController(IPortfolioService service) => _service = service;
 
     [HttpGet]
     public async Task<IActionResult> GetAll() =>

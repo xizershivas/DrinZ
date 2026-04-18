@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DrinZ.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+75e68535ea435bdd385d13e7c30492a831486c7a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b4e6fd72e90b60f2ab068c48d3d65429e9a0298b")]
 [assembly: System.Reflection.AssemblyProductAttribute("DrinZ.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DrinZ.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
