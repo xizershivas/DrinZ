@@ -33,7 +33,7 @@ export default function Hero() {
   }, [displayed, typing, roleIdx])
 
   return (
-    <section className="relative min-h-[calc(100vh-4rem)] flex items-center overflow-hidden bg-section">
+    <section className="relative min-h-[calc(100vh-4rem)] flex items-center overflow-hidden">
 
       {/* Subtle background shapes */}
       <div className="absolute inset-0 pointer-events-none overflow-hidden">
