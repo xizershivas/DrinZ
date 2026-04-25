@@ -9,7 +9,12 @@
       "Bash(taskkill //PID 24440 //F)",
       "Bash(taskkill //PID 14668 //F)",
       "Bash(curl -s http://localhost:5139/api/projects)",
-      "Bash(curl -s http://localhost:5173)"
+      "Bash(curl -s http://localhost:5173)",
+      "Bash(docker --version)",
+      "Bash(docker compose *)",
+      "Bash(docker pull node:20-alpine *)",
+      "Bash(docker pull nginx:alpine *)",
+      "Bash(git remote *)"
     ]
   }
 }
